@@ -127,3 +127,7 @@ body{
   opacity: 1;
   pointer-events: auto;
 }
+
+.logo-or-something {
+  color: white;
+}
