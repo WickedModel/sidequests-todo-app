@@ -130,7 +130,7 @@ body{
 }
 
 .logo-or-something {
-  background: -webkit-linear-gradient(#497BE8 100%, #68EACC 0%,);
+  background: -webkit-linear-gradient(#497BE8 100%, #68EACC 0%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
