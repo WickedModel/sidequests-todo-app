@@ -130,5 +130,5 @@ body{
 }
 
 .logo-or-something {
-  color: linear-gradient(to bottom, #497BE8 100%, #68EACC 0%);
+  color: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
 }
