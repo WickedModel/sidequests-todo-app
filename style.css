@@ -130,5 +130,7 @@ body{
 }
 
 .logo-or-something {
-  color: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  background: -webkit-linear-gradient(to bottom, #497BE8 100%, #68EACC 0%,);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
