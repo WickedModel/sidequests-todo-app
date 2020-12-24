@@ -7,7 +7,7 @@ body {
 }
 
 canvas {
-	background-image: radial-gradient(#68EACC 0%, #497BE8 100%);
+	background-image: radial-gradient(#666, #333);
 }
 
 #instructions {
@@ -22,6 +22,6 @@ canvas {
 }
 
 .text-logo {
-  color: rgb(142, 73, 232);
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
