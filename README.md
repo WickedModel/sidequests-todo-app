@@ -1,5 +1,12 @@
 # SideQuests | A Simple but Powerful Todo App
-This is a todo app :) If you wanna contribute and make the site better,
-please fork and pull request :)
 
-the site: https://www.sidequests.ga
+# Introduction
+SideQuests is a simple but powerful todo app that can list any task you want, and it also saves the tasks into the LocalStorage. Meaning, even if you refresh or leave the website, it will still save your progress.
+
+# How to contribute to the app
+You can fork this repository, and you can follow all of the rules in the LICENCE.md, request a merge.
+
+
+
+# The Site
+This is the site: https://www.sidequests.ga
