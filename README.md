@@ -9,4 +9,4 @@ You can fork this repository, and you can follow all of the rules in the LICENCE
 
 
 # The Site
-This is the site: https://www.sidequests.ga
+Go check out the site!: https://www.sidequests.ga
