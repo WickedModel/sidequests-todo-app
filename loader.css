@@ -1,0 +1,20 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c1b2a;
+
+}
+
+svg{
+  width: 120px;
+  height: auto;
+}
