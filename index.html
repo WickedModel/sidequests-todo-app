@@ -1,31 +1,36 @@
 <!DOCTYPE html>
+<!-- Created By Zarif Sefat -->
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SideQuests | Simple but Powerful Todo App</title>
-  <meta http-equiv="refresh" content="10;url=home" />
-  <link rel="stylesheet" href="loader.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link rel="icon" href="images/sidequests-logo.png">
-  <meta property="og:image" content="images/sidequests-logo.png">
-  <meta property="og:title" content="SideQuests | Simple but Powerful Todo App">
-  <meta property="og:description" content="SideQuests is a simple but powerful todo app that can list any task you want, and it also saves the tasks into the LocalStorage. Meaning, even if you refresh or leave the website, it will still save your progress.">
-  <meta property="og:url" content="https://www.sidequests.ga">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideQuests | Simple but Powerful Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="icon" href="images/sidequests-logo.png">
+    <meta property="og:image" content="images/sidequests-logo.png">
+    <meta property="og:title" content="SideQuests | Simple but Powerful Todo App">
+    <meta property="og:description" content="SideQuests is a simple but powerful todo app that can list any task you want, and it also saves the tasks into the LocalStorage. Meaning, even if you refresh or leave the website, it will still save your progress.">
+    <meta property="og:url" content="https://www.sidequests.ga/home">
 </head>
 <body>
-  <!-- partial:index.partial.html -->
-  <div id="three-container"></div>
-
-  <div id="instructions">
-    <h1 class="text-logo"><i class="fas fa-check-square"></i> SideQuests is loading...</h1>
+  <h1 class="text-logo"><i class="fas fa-check-square"></i> SideQuests</h1>
+  <div class="wrapper">
+    <header>SIDE QUESTS</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new side quest">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data comes from local storage -->
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending side quests</span>
+      <button>Clear All</button>
+    </div>
   </div>
-  <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js'></script>
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js'></script>
-    <script  src="./loader.js"></script>
-  </svg>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
